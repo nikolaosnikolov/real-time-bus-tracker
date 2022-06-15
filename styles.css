@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.map-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#button {
+    position: absolute;
+    right: 16px;
+    height: 35px;
+    width: 90px;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid #008CBA;
+}
+
+#button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#datasource {
+    font-size: 12px;
+    text-align: left;
+    color: white;
+}
+
+.title-box {
+    display: flex;
+
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stop {
+    font-size: 12px;
+}
+.stopname, .stopnumber {
+    font-size: 12px;
+    margin-left: 5px;
+}
+#general {
+    flex-basis: 40%;
+}
+#stops {
+    flex-basis: 45%;
+}
