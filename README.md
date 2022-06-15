@@ -6,6 +6,4 @@ If you want to run this project on your machine you can just take all the files 
 ## Future changes I would do
 What I would try to do better in the future is maybe to change the route so I can put a big one and then put timer for how much time the people in the bus are going to wait until the next station. All these are going to follow a list of the whole stops and the time from the stop we are now to all the others.
 ## Lisence
-Project free to use
-Maps are made from mapbox
-Coordinates and routes data are taken live by Washington Metropolitan Area Transit
+Project free to use. Maps are made from mapbox. Coordinates and routes data are taken live by Washington Metropolitan Area Transit
